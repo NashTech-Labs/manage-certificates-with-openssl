@@ -13,13 +13,13 @@ OpenSSL is widely used for securing communications on the internet, such as HTTP
 openssl x509 -in knol.dev.crt -text -noout
 ```
 
-#### Genrate corresponding pem file
+#### Generate corresponding pem file
 ```
 openssl x509 -in knol.dev.crt -text -out knol.dev.pem
 ```
 
-Here's what each option in the command means:
-"x509" tells OpenSSL to treat the input file as an X.509 certificate.
-"-in knol.dev.crt" specifies the input file as "knol.dev.crt".
-"-text" tells OpenSSL to print out the certificate in human-readable text format.
-"-out knol.dev.pem" specifies the output file as "knol.dev.pem" and tells OpenSSL to write the certificate to this file in PEM format.
+#### Here's what each option in the command means: 
+- "x509" tells OpenSSL to treat the input file as an X.509 certificate.
+- "-in knol.dev.crt" specifies the input file as "knol.dev.crt".
+- "-text" tells OpenSSL to print out the certificate in human-readable text format.
+- "-out knol.dev.pem" specifies the output file as "knol.dev.pem" and tells OpenSSL to write the certificate to this file in PEM format.
